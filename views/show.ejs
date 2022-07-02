@@ -1,0 +1,32 @@
+
+
+
+
+<section class="my-4 mx-auto">
+    <div class="container">
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-lg-8">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="div-01 d-flex justify-content-between">
+                            <h3 class="fw-bold text-info">Student Information</h3>
+                            <a class="btn fw-bold text-white btn-info" href="/student">Back</a>
+                        </div>
+                        <hr>
+                        <img style="height: 300px; object-fit: cover;" class="w-100 img-rounded" src="/assets/upload/<%= single_data.photo %>" alt="">
+                        <div class="show-data text-left mt-3">
+                            <h5><b>Name:</b> <%= single_data.name %> </h5>
+                            <h5><b>Email:</b> <%= single_data.email %> </h5>
+                            <h5><b>Location:</b> <%= single_data.location %> </h5>
+                            <h5><b>Skill:</b> <%= single_data.skill %> </h5>
+                            <h5><b>Number:</b> <%= single_data.cell %> </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col"></div>
+        </div>
+    </div>
+</section>
+
